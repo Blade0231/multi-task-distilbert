@@ -46,22 +46,22 @@ This implementation addresses these challenges through:
 
 ## High-Level Architecture
 
-Raw Document Text
-││││││││││││
-▼▼▼▼▼▼▼▼▼▼▼▼
-Tokenizer + Sliding Window Chunking
-││││││││││││
-▼▼▼▼▼▼▼▼▼▼▼▼
-Transformer Encoder (DistilBERT + LoRA)
-││││││││││││
-▼▼▼▼▼▼▼▼▼▼▼▼
-CLS Embedding per Chunk
-││││││││││││
-▼▼▼▼▼▼▼▼▼▼▼▼
-Shared Projection Layer
-││││││││││││
-▼▼▼▼▼▼▼▼▼▼▼▼
-Attention Pooling (per document)
-││││││││││││
-▼▼▼▼▼▼▼▼▼▼▼▼
+Raw Document Text  
+&emsp;&emsp;&emsp;&emsp;│  
+&emsp;&emsp;&emsp;&emsp;▼  
+Tokenizer + Sliding Window Chunking  
+&emsp;&emsp;&emsp;&emsp;│  
+&emsp;&emsp;&emsp;&emsp;▼  
+Transformer Encoder (DistilBERT + LoRA)  
+&emsp;&emsp;&emsp;&emsp;│  
+&emsp;&emsp;&emsp;&emsp;▼  
+CLS Embedding per Chunk  
+&emsp;&emsp;&emsp;&emsp;│  
+&emsp;&emsp;&emsp;&emsp;▼  
+Shared Projection Layer  
+&emsp;&emsp;&emsp;&emsp;│  
+&emsp;&emsp;&emsp;&emsp;▼  
+Attention Pooling (per document)  
+&emsp;&emsp;&emsp;&emsp;│  
+&emsp;&emsp;&emsp;&emsp;▼  
 Task-Specific Binary Classification Head
